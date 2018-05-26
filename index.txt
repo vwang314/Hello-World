@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awesome Webpage</title>
+	<style>
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+background-color:#4CAF50;
+}
+</style>
+</head>
+<body>
+	<header><center><h1>Welcome to my Page</h1></center></header>
+	<nav>
+		<ul>
+			<li><a class="active" href="Home Page/Awesome Webpage.html">Home</a></li>
+			<li><a href="Games/games.html">Games</a></li>
+			<li><a href="Photos/photos.html">Photos</a></li>
+			<li><a href="Boredom/page.html">Boredom</a></li>
+		</ul>
+	</nav>
+	<br>
+	<p>Welcome to my (not so Web)page. This page has random Javascript games you can play without internet as well as some randome photos that I just put in.<p>
+	<br>
+	<img src="Home Page/pikachu.gif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="Home Page/squirtle.gif" style="width:300px;height:225px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="Home Page/cookie run.jpg" style="width:246px;height:226px;">
+</body>
+</html>
