@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Games</title>
+<style>
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+nav .active {
+background-color:#4CAF50;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	width: 25%
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+	<header><center><h1>Games</h1></center></header>
+	<nav>
+		<ul>
+			<li><a class="active" href="../Home Page/Awesome Webpage.html">Home</a></li>
+			<li><a href="../Games/games.html">Games</a></li>
+			<li><a href="../Photos/photos.html">Photos</a></li>
+			<li><a href="../Boredom/page.html">Boredom</a></li>
+		</ul>
+	</nav>
+	<br><br><br>
+	<table>
+		<tr>
+			<th colspan="3"><center>Games</center></th>
+		</tr>
+		<tr>
+			<td><a href="Snake/index.html"><center>Snake<center></a></td>
+			<td><a href="Pacman/index.html"><center>Pacman</center></a></td>
+			<td><a href="Pong/index.html"><center>Pong</center></a></td>
+		</tr>
+		<tr>
+			<td><a href="Delta/index.html"><center>Delta</center></a></td>
+			<td><a href="2048/index.html"><center>2048</center></a></td>
+			<td><a href="Flappy Bird/index.html"><center>Flappy Bird</center></a></td>
+		
+		</tr>
+		<tr>
+			<td><a href="Tetris/index.html"><center>Tetris</center></a></td>
+			<td><a href="Racer/v4.final.html"><center>Racer</center></a></td>
+			<td><a href="Bombergirl/index.html"><center>Bombergirl <br> (Not working properly. Trying to resolve the issue)</center></a></td>
+		</tr>
+	</table>
+</body>
+</html>
